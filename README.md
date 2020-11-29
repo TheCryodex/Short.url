@@ -8,6 +8,7 @@ A lightweight and fast Url Shortner that works on localhost.
 3) Install the dependencies with `npm install`
 4) Run `npm start`
 
+You can check the website at `localhost:1333`
 
 You can even enter a short slug (custom url) for websites that you frequently visit. 
 
