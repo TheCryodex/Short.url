@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>short.url</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h2>Welcome to URL Shortner!</h2>
+    </header>
+    <form action="/url" method="post">
+      <table>
+        <tr>
+          <td>Enter a Long URL :</td>
+          <td><label for="link">
+            <input type="text" name="url" placeholder="URL">
+          </label></td>
+
+        </tr>
+        <tr>
+          <td>Enter an Alias (OPTIONAL)</td>
+          <td><label for="alias">
+            <input type="text" name="alias" placeholder="Alias">
+          </label>
+          <tr>
+            <td><input type="submit" name="submit" value="submit"></td></td>
+
+          </tr>
+        </tr>
+      </table>
+
+    </form>
+    <% if(alias!=null) { %>
+      The shortened url is : localhost:1333/<%= alias %>
+    <%}%>
+
+  </body>
+</html>
