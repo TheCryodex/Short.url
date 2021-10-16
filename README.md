@@ -6,7 +6,8 @@ A lightweight and fast Url Shortner that works on localhost.
 1) Load a local (or an online) instance of MongoDB
 2) Install node
 3) Install the dependencies with `npm install`
-4) Run `npm start`
+4) Start the MongoDB service with `mongod` 
+5) Run `npm start`
 
 You can check the website at `localhost:1333`
 
